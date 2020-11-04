@@ -1,6 +1,7 @@
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class Main extends Application
@@ -20,6 +21,7 @@ public class Main extends Application
         stage.setTitle("Hello World Version 3.0 von Elijah");
         //Adding the scene to the stage
         stage.setScene(scene);
+        stage.getIcons().add(new Image("ico.png"));
         //Displaying the contents of a scene
         stage.show();
     }
