@@ -17,7 +17,7 @@ public class Main extends Application
         stage.setWidth(450);
         stage.setHeight(450);
         //Setting title to the scene
-        stage.setTitle("Hello World Version 2.0");
+        stage.setTitle("Hello World Version 3.0 von Elijah");
         //Adding the scene to the stage
         stage.setScene(scene);
         //Displaying the contents of a scene
